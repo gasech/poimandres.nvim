@@ -125,7 +125,7 @@ function M.get(config)
     SpecialComment = { fg = p.blueGray1 }, -- special things inside a comment
     -- Debug         = { }, --    debugging statements
 
-    Comment = { fg = p.blueGray1 }, -- (preferred) any special symbol
+    Comment = { fg = p.blueGray1, style='italic' }, -- (preferred) any special symbol
 
     Underlined = { style = 'underline' }, -- (preferred) text that stands out, HTML links
     Bold = { style = 'bold' },
